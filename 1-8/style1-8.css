@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.list {
+  /*display: flex;*/
+  justify-content: center;
+  margin: 50 auto;
+  width: 960px;
+}
+
+.list-text {
+  width: 960px;
+  font-size: 15px;
+  display: inline-block;
+  padding: 20px;
+  color: #6c6b6b;
+  font-size: 20px;
+}
+
+.list-text:nth-child(1) {
+  background-color: #d1d1d1;
+}
+
+.boxs {
+  display: flex;
+  justify-content: center;
+  margin: 50 auto;
+  flex-wrap: wrap;
+  width: 960px;
+}
+
+.box {
+  height: 200px;
+  color: yellow;
+  /*width: 0.3;*/
+  /*padding:0 0.05 40px 0;*/
+}

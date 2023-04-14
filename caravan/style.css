@@ -235,7 +235,7 @@ footer {
 
 
 @media screen and (max-width:425px) {
-  .social i {
+  .social  {
     display: none;
   }
   

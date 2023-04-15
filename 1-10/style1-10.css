@@ -84,3 +84,18 @@ footer {
   background-color: #aaaaaa;
 }
 
+@media screen and (max-width:768px) {
+  main {
+    width: 100%;
+    display: block;
+  }
+  
+  .main-box {
+    width: 90%;
+    margin: 0 5% 20px 5%;
+  }
+  
+  .main-box:last-child {
+    margin-bottom: 0;
+  }
+}
